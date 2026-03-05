@@ -37,32 +37,10 @@ AI-Translator-Flask/
 └── README.md
 ⚙️ Installation & Setup
 
-Follow these steps to run locally:
-
-1️⃣ Clone the repository
-git clone https://github.com/YOUR_USERNAME/AI-Translator-Flask.git
-2️⃣ Navigate to project folder
-cd AI-Translator-Flask
-3️⃣ Create virtual environment
-python -m venv venv
-4️⃣ Activate virtual environment
-
-Windows:
-
-venv\Scripts\activate
-5️⃣ Install dependencies
-pip install flask googletrans==4.0.0-rc1
-6️⃣ Run the application
-python app.py
-
-Now open in browser:
-👉 http://127.0.0.1:5000
 
 🎯 What I Learned
 
 Flask backend routing
-
-Jinja2 template rendering
 
 Frontend UI/UX improvements
 
