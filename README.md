@@ -1,15 +1,15 @@
 🚀 AI Translator Web App
 
-🌍 A modern AI-powered language translator built using Python and Flask, designed with a clean and interactive user interface.
+🌍 A modern AI-powered language translator built using Python and Flask with a clean, interactive user interface.
 
 ✨ Features
 
-✅ Multi-language translation support
+✅ Multi-language translation
 🌙 Dark / Light mode toggle
-📋 Copy-to-clipboard with instant feedback
-⏳ Smooth loading animation
-🎨 Modern and responsive UI
-⚡ Lightweight and fast backend
+📋 Copy-to-clipboard button (with success effect)
+⏳ Loading animation
+🎨 Modern responsive UI
+⚡ Fast and lightweight Flask backend
 
 🛠️ Tech Stack
 
@@ -19,28 +19,68 @@
 
 🌍 Googletrans API
 
-🎨 HTML5 & CSS3
+🎨 HTML5 + CSS3
 
 ⚡ JavaScript
 
 🗂️ Git & GitHub
 
-📌 Project Overview
+📂 Project Structure
+AI-Translator-Flask/
+│
+├── templates/
+│   └── index.html
+│
+├── venv/
+├── app.py
+├── .gitignore
+└── README.md
+⚙️ Installation & Setup
 
-This project demonstrates the integration of a Flask backend with a dynamic frontend interface to create a real-time language translation web application.
+Follow these steps to run locally:
 
-It focuses on both functionality and user experience, combining backend logic with modern UI enhancements.
+1️⃣ Clone the repository
+git clone https://github.com/YOUR_USERNAME/AI-Translator-Flask.git
+2️⃣ Navigate to project folder
+cd AI-Translator-Flask
+3️⃣ Create virtual environment
+python -m venv venv
+4️⃣ Activate virtual environment
 
-🎯 Learning Outcomes
+Windows:
 
-Backend routing using Flask
+venv\Scripts\activate
+5️⃣ Install dependencies
+pip install flask googletrans==4.0.0-rc1
+6️⃣ Run the application
+python app.py
 
-Template rendering with Jinja2
+Now open in browser:
+👉 http://127.0.0.1:5000
 
-UI design improvements with CSS
+🎯 What I Learned
 
-DOM manipulation using JavaScript
+Flask backend routing
 
-Version control using Git
+Jinja2 template rendering
 
-🔥 Built as part of my continuous journey in AI and Web Development.
+Frontend UI/UX improvements
+
+JavaScript DOM manipulation
+
+Git version control workflow
+
+🚀 Future Improvements
+
+🌎 Auto language detection
+
+🎙️ Speech-to-text input
+
+📜 Translation history
+
+☁️ Cloud deployment
+
+🤝 Connect With Me
+
+If you like this project, feel free to ⭐ the repository
+🔥 Built with passion for learning and improving in AI & Web Development.
