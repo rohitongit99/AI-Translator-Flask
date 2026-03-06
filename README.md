@@ -1,3 +1,4 @@
+Code-Alpha Internship Project
 🚀 AI Translator Web App
 
 🌍 A modern AI-powered language translator built using Python and Flask with a clean, interactive user interface.
